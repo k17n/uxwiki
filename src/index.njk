@@ -1,0 +1,16 @@
+---
+layout: base
+eleventyNavigation:
+  key: Home
+---
+
+<div class="container">
+   {% set glossaryTermsList = glossary %}
+
+    <h1>Glossary</h1>
+    {% include "glossaryTermNavigation.njk" %}
+    <div class="glossary-list">
+    {% include "glossaryTermsList.njk" %}
+    </div>
+
+</div>

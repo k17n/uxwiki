@@ -1,0 +1,76 @@
+.glossary-nav {
+    padding-top: $spacing-x;
+
+    &__item {
+        padding: 0.5rem;
+        width: 40px;
+        height: 40px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__link{
+        color: black;
+        text-decoration: none;
+    }
+}
+
+
+
+
+
+.glossary-list {
+    &__term-container{
+        &:last-child{
+            margin-bottom: 4.5rem;
+        }
+    }
+    
+    &__index {
+        @include flex-center;
+
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.5rem;
+        background-color: black;
+        color: white;
+        text-transform: uppercase;
+        margin-top: 4.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    &__term {
+        margin-bottom: 1.5rem;
+
+        &__title {
+            font-size: 1.75rem;
+            font-weight: 400;
+            margin-bottom: 0.5rem;
+
+            &__link {
+                color: transparent;
+                display: none;
+                text-decoration: none;
+                font-weight: 500;
+                margin-left: 0.375rem;
+            
+            }
+
+
+            &:hover &__link {
+                    color: #3F51B5;
+                    display: inline;
+                }
+        }
+
+        &__description {
+            br {
+                line-height: 1rem;
+                margin-top: 1rem;
+                display: block;
+                content: '';
+            }
+        }
+    }
+}

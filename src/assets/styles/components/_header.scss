@@ -1,0 +1,15 @@
+.header {
+    padding: $spacing-y 0;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .icon--logo{
+        width: 120px;
+        height:60px;
+        fill: black;
+    }
+}

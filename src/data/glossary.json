@@ -1,0 +1,78 @@
+[
+    {
+      "index": "#",
+      "terms": [
+        {
+          "term": "3-click Rule",
+          "description": "The 3-click rule is an un-official design heuristic which states that no webpage, key information or task should take more than 3 clicks to access or accomplish. The rule assumes that a visitor would get frustrated and abandon his information seeking task if it takes more than 3 clicks. However, there has been no data or studies to corroborate the assertions made by the rule."
+        },
+        {
+          "term": "5-second test",
+          "description": "An experiment where a designer shows a mockup of a website or a mobile app to a bunch of users for a short-period of time say 5 seconds and asks them describe their response. The test is done to evoke gut reactions."
+        }
+      ]
+    },
+    {
+      "index": "b",
+      "terms": [
+        {
+          "term": "Breadcrumb",
+          "description": "Breadcrumb is a navigational element which helps users identify their current location in a site’s hierarchical structure. Generally breadcrumbs are used to supplement a site’s global or local navigation system. On screen, breadcrumbs are visually rendered as a trail of links listing grandparent, parent pages all the way to the current page usually separated by a “/” and “>” character."
+        }
+      ]
+    },
+    {
+      "index": "c",
+      "terms": [
+        {
+          "term": "Card sorting",
+          "description": "Before we get to card sorting we need to understand what information architecture is. Information architecture or IA as it is commonly known, refers to how information is organized on a website or application. Card sorting is a UX research technique that helps site owners improve information architecture by getting users involved in structuring the content of the website. This typically involves a session where the various elements of the website are written down as cards and users are asked to collect them into groups."
+        }
+      ]
+    },
+    {
+      "index": "d",
+      "terms": [
+        {
+          "term": "Data driven decision",
+          "description": "When you make design decisions based on empirical observation instead of guesses."
+        },
+        {
+          "term": "Design thinking",
+          "description": "Keeping your users at the center of the design process."
+        }
+      ]
+    },
+    {
+      "index": "e",
+      "terms": [
+        {
+          "term": "Empathy Map",
+          "description": "Deeply understanding the needs of the user is key in user-centered design. Though qualitative research methods like usability testing, surveys or user interviews can help you understand various aspects of the user, you need a visualization tool to distill and capture who your users are as a whole. Empathy mapping, a technique employed in the beginning of the UX process can help you achieve this. Empathy maps are divided into four quadrants. With each quadrant capturing what the user says, thinks, does, and feels."
+        }
+      ]
+    },
+    {
+      "index": "g",
+      "terms": [
+        {
+          "term": "Gamification",
+          "description": "Gamification is a technique or tool to enhance user experience. This involves adding gaming elements like badges, leaderboards or rewards to traditional non-gaming environments of an existing system to incentivise users to engage with the product."
+        }
+      ]
+    }
+    ,
+    {
+      "index": "n",
+      "terms": [
+        {
+      "term": "Net Promoter Score",
+      "description": "Net Promoter Score®, or NPS®, measures customer experience and predicts business growth. It is a management tool that aims to measure the loyalty that exists between a provider and a consumer. The provider can be a company, employer or any other entity. It can also be used as an alternative to traditional customer satisfaction research."
+    },
+    {
+      "term": "Neomorphism",
+      "description": "Neumorphism (also neomorphism) as the name suggests is a new take on skeuomorphic design. Even though it relates to skeuomorphism, where interface components mimic their real-world counterparts in how they appear or how a user can interact with them, neumorphism’s aesthetic lies on its minimal, flat yet realistic UI.<br>Neumorphic UI elements look like they’re connected to the background, as if the elements are extruded or inset into the background. They are also referred as “soft UI” because of the way soft shadows are used to create this blending effect."
+    }
+      ]
+    }
+  ]
