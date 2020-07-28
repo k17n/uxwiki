@@ -9,7 +9,7 @@
 
     &__item {
         &--active {
-            @include mq(sm) {
+            @include mq(lg) {
                 position: relative;
 
                 &::after {
