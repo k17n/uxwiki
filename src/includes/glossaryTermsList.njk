@@ -1,12 +1,14 @@
 {% for term in glossaryTermsList %}
-<section id="{{ term.index | lower}}" class="glossary-list__term-container">
-  <div class="glossary-list__index">{{ term.index | upper }}</div>
-  
-  {% for term in term.terms %}
-  <div class="glossary-list__term">
-    <h2 id="{{ term.term | slug }}" class="glossary-list__term__title">{{ term.term }}<a class="glossary-list__term__title__link" href="#{{ term.term | slug }}" aria-hidden="true">#</a></h2>
-    <p class="glossary-list__term__description">{{ term.description | safe }}</p>
-  </div>
-  {% endfor %}
-</section>
+  {% if term.terms | length %}
+  <section id="{{ term.index | lower}}" class="glossary-list__term-container">
+    <div class="glossary-list__index">{{ term.index | upper }}</div>
+    
+    {% for term in term.terms %}
+    <div class="glossary-list__term">
+      <h2 id="{{ term.term | slug }}" class="glossary-list__term__title">{{ term.term }}<a class="glossary-list__term__title__link" href="#{{ term.term | slug }}" aria-hidden="true">#</a></h2>
+      <p class="glossary-list__term__description">{{ term.description | safe }}</p>
+    </div>
+    {% endfor %}
+  </section>
+  {% endif %}
 {% endfor %}

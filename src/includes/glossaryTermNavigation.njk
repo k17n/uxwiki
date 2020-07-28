@@ -1,19 +1,8 @@
-{% set glossaryNavList = ["#","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"] %}
-
-<div class="glossary-nav">
-    {% for navTerm in glossaryNavList %}
-
-    {# {% set isTermPresentInTermList = false %}
-    {% for i in range(0, glossaryTermsList.length) -%}
-    {%- if isTermPresentInTermList is false %}
-        {% set isTermPresentInTermList = navTerm in glossaryTermsList[i].index %}
-    {% else %}
-        return isTermPresentInTermList        
-    {% endif %}
-    {%- endfor %} 
-
-    {{isTermPresentInTermList}} #}
-    
-    <span class="glossary-nav__item"><a class="glossary-nav__link" href="#{{ navTerm }}" aria-label="Navigate to term {{navTerm | upper}}">{{navTerm | upper}}</a></span>
-    {% endfor %}
-</div>
+<nav class="glossary-nav" tabindex="-1">
+    <ul>
+        {% for term in glossaryTermsList %}
+        {%- set hasContent = term.terms | length  -%}
+        <li class="glossary-nav__item"><a class="glossary-nav__link {% if hasContent %}glossary-nav__link--has-content{% endif %}" href="#{{ term.index }}" {% if hasContent %}aria-label="Navigate to term {{term.index | upper}}"{% else %}disabled="disabled" aria-disabled="true"{% endif %}>{{term.index | upper}}</a></li>
+        {% endfor %}
+    </ul>
+</nav>

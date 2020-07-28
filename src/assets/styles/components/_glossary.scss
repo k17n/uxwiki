@@ -11,14 +11,16 @@
     }
 
     &__link{
-        color: black;
+        color: #9E9E9E;
         text-decoration: none;
+        pointer-events: none;
+
+        &--has-content{
+            color: black;
+            pointer-events: auto;
+        }
     }
 }
-
-
-
-
 
 .glossary-list {
     &__term-container{
