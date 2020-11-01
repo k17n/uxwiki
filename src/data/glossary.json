@@ -108,11 +108,25 @@
   },
   {
     "index": "o",
-    "terms": []
+    "terms": [
+      {
+        "term": "Onboarding",
+        "description": "Onboarding is the process of getting users familiar with a new interface. It can involve one or more of the following components: feature promotion, customization, and instructions.<br>Onboarding, with the help of dedicated flows and UI elements that are not part of the regular app interface, is usually done to not only teach users how to interact with the interface but also to complete any necessary setup for customising the user experience.<br>Onboarding can occur at multiple points in a user’s lifecycle of an app and not just limited to the first time users. It can also be done for existing users when any new features or redesigns are released."
+      }
+    ]
   },
   {
     "index": "p",
-    "terms": []
+    "terms": [
+      {
+        "term": "Pain Point",
+        "description": "A pain point is a specific problem that prospective customers of your business are experiencing. In other words, you can think of pain points as problems, plain and simple.<br>Conducting qualitative research along with user journey mapping can be used to get insights and subjective feedback from the customers with which UX designers can come up with solutions to solve these pain points the customers encounter while using their products or services."
+      },
+      {
+        "term": "Persona",
+        "description": "Personas in user-centered design, are fictional characters, which you create based upon your research in order to represent the different user types that might use your service, product, site, or brand in a similar way.<br>Creating personas will help you to understand your users’ needs, outlook, experiences, behaviours and goals. They can help you to achieve the goal of creating a good user experience for your target user group."
+      }
+    ]
   },
   {
     "index": "q",
