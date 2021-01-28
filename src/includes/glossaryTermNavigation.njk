@@ -2,7 +2,7 @@
     <ul>
         {% for term in glossaryTermsList %}
         {% set hasContent = term.terms | length %}
-        <li class="glossary-nav__item"><a class="glossary-nav__link {% if hasContent %}glossary-nav__link--has-content{% endif %}" href="#{{ term.index }}" {% if hasContent %}aria-label="Navigate to term {{term.index | upper}}"{% else %}disabled="disabled" aria-disabled="true"{% endif %}>{{term.index | upper}}</a></li>
+        <li class="glossary-nav__item"><a class="glossary-nav__link {% if hasContent %}glossary-nav__link--has-content{% endif %}" href="#{{ term.index }}" {% if hasContent %}aria-label="Navigate to term {{term.index | upper}}"{% else %}disabled="disabled" aria-disabled="true" tabindex="-1"{% endif %}>{{term.index | upper}}</a></li>
         {% endfor %}
     </ul>
 </nav>
